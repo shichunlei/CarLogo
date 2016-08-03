@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基本信息 -->
+    <string-array name="basic_key">
+        <item>厂家指导价</item>
+        <item>商家报价</item>
+        <item>保修政策</item>
+        <item>车船税减免</item>
+        <item>排量(L)</item>
+        <item>变速箱</item>
+        <item>综合工况油耗(L/100km)</item>
+        <item>网友油耗(L/100km)</item>
+        <item>官方0-100公里加速时间(s)</item>
+        <item>实测0-100公里加速时间(s)</item>
+        <item>最高车速(km/h)</item>
+        <item>乘员人数（区间）(个)</item>
+    </string-array>
+
+    <!-- 车体信息 -->
+    <string-array name="body_key">
+        <item>长*宽*高(mm*mm*mm)</item>
+        <item>轴距(mm)</item>
+        <item>前轮距(mm)</item>
+        <item>后轮距(mm)</item>
+        <item>整备质量(kg)</item>
+        <item>满载质量(kg)</item>
+        <item>最小离地间隙(mm)</item>
+        <item>接近角(°)</item>
+        <item>离去角(°)</item>
+        <item>行李厢容积(L)</item>
+        <item>行李厢盖开合方式</item>
+        <item>行李厢打开方式</item>
+        <item>感应行李厢</item>
+        <item>车门数(个)</item>
+        <item>车顶型式</item>
+        <item>车篷型式</item>
+        <item>车顶行李箱架</item>
+        <item>运动外观套件</item>
+    </string-array>
+
+    <!-- 发动机信息 -->
+    <string-array name="engine_key">
+        <item>发动机位置</item>
+        <item>发动机型号</item>
+        <item>排量(L)</item>
+        <item>排量(mL)</item>
+        <item>进气形式</item>
+        <item>气缸排列型式</item>
+        <item>气缸数(个)</item>
+        <item>每缸气门数(个)</item>
+        <item>气门结构</item>
+        <item>压缩比</item>
+        <item>缸径(mm)</item>
+        <item>行程(mm)</item>
+        <item>最大马力(Ps)</item>
+        <item>最大功率(kW)</item>
+        <item>最大功率转速(rpm)</item>
+        <item>最大扭矩(Nm)</item>
+        <item>最大扭矩转速(rpm)</item>
+        <item>燃料类型</item>
+        <item>燃油标号</item>
+        <item>供油方式</item>
+        <item>燃油箱容积(L)</item>
+        <item>缸盖材料</item>
+        <item>缸体材料</item>
+        <item>环保标准</item>
+        <item>启停系统</item>
+    </string-array>
+
+    <!-- 底盘制动 -->
+    <string-array name="chassisbrake_key">
+        <item>车体结构</item>
+        <item>转向助力</item>
+        <item>前制动类型</item>
+        <item>后制动类型</item>
+        <item>驻车制动类型</item>
+        <item>驱动方式</item>
+        <item>空气悬挂</item>
+        <item>可调悬挂</item>
+        <item>前悬挂类型</item>
+        <item>后悬挂类型</item>
+        <item>中央差速器锁</item>
+    </string-array>
+
+    <!-- 安全配置 -->
+    <string-array name="safe_key">
+        <item>驾驶位安全气囊</item>
+        <item>副驾驶位安全气囊</item>
+        <item>前排侧安全气囊</item>
+        <item>前排头部气囊(气帘)</item>
+        <item>膝部气囊</item>
+        <item>后排侧安全气囊</item>
+        <item>后排头部气囊(气帘)</item>
+        <item>安全带未系提示</item>
+        <item>安全带限力功能</item>
+        <item>安全带预收紧功能</item>
+        <item>前安全带调节</item>
+        <item>后排安全带</item>
+        <item>胎压监测装置</item>
+        <item>零压续行(零胎压继续行驶)</item>
+        <item>中控门锁</item>
+        <item>儿童锁</item>
+        <item>遥控钥匙</item>
+        <item>无钥匙进入系统</item>
+        <item>无钥匙启动系统</item>
+        <item>发动机电子防盗</item>
+    </string-array>
+
+    <!-- 行车辅助 -->
+    <string-array name="driving_key">
+        <item>刹车防抱死(ABS)</item>
+        <item>电子制动力分配系统(EBD)</item>
+        <item>刹车辅助(EBA/BAS/BA/EVA等)</item>
+        <item>牵引力控制(ASR/TCS/TRC/ATC等)</item>
+        <item>动态稳定控制系统(ESP)</item>
+        <item>随速助力转向调节(EPS)</item>
+        <item>自动驻车</item>
+        <item>上坡辅助</item>
+        <item>陡坡缓降</item>
+        <item>泊车雷达(车前)</item>
+        <item>倒车雷达(车后)</item>
+        <item>倒车影像</item>
+        <item>全景摄像头</item>
+        <item>定速巡航</item>
+        <item>自适应巡航</item>
+        <item>GPS导航系统</item>
+        <item>自动泊车入位</item>
+        <item>车道偏离预警系统</item>
+        <item>主动刹车/主动安全系统</item>
+        <item>整体主动转向系统</item>
+        <item>夜视系统</item>
+        <item>盲点检测</item>
+    </string-array>
+
+    <!-- 门窗/后视镜 -->
+    <string-array name="door_key">
+        <item>开门方式</item>
+        <item>电动车窗</item>
+        <item>防紫外线/隔热玻璃</item>
+        <item>隐私玻璃</item>
+        <item>电动窗防夹功能</item>
+        <item>天窗开合方式</item>
+        <item>天窗型式</item>
+        <item>后窗遮阳帘</item>
+        <item>后排侧遮阳帘</item>
+        <item>后雨刷器</item>
+        <item>感应雨刷</item>
+        <item>电动吸合门</item>
+        <item>后视镜带侧转向灯</item>
+        <item>外后视镜记忆功能</item>
+        <item>外后视镜加热功能</item>
+        <item>外后视镜电动折叠功能</item>
+        <item>外后视镜电动调节</item>
+        <item>内后视镜防眩目功能</item>
+        <item>遮阳板化妆镜</item>
+    </string-array>
+
+    <!-- 灯光 -->
+    <string-array name="light_key">
+        <item>前大灯类型</item>
+        <item>选配前大灯类型</item>
+        <item>前大灯自动开闭</item>
+        <item>前大灯自动清洗功能</item>
+        <item>前大灯延时关闭</item>
+        <item>前大灯随动转向</item>
+        <item>前大灯照射范围调整</item>
+        <item>会车前灯防眩目功能</item>
+        <item>前雾灯</item>
+        <item>阅读灯</item>
+        <item>车内氛围灯</item>
+        <item>日间行车灯</item>
+        <item>LED尾灯</item>
+        <item>转向辅助灯</item>
+    </string-array>
+
+    <!-- 内部配置 -->
+    <string-array name="internal_key">
+        <item>方向盘前后调节</item>
+        <item>方向盘上下调节</item>
+        <item>方向盘调节方式</item>
+        <item>方向盘记忆设置</item>
+        <item>方向盘表面材料</item>
+        <item>多功能方向盘</item>
+        <item>方向盘加热</item>
+        <item>行车电脑显示屏</item>
+        <item>HUD抬头数字显示</item>
+        <item>内饰颜色</item>
+        <item>后排杯架</item>
+        <item>车内电源电压</item>
+    </string-array>
+
+    <!-- 座椅 -->
+    <string-array name="seat_key">
+        <item>运动座椅</item>
+        <item>座椅材料</item>
+        <item>座椅高低调节</item>
+        <item>驾驶座座椅调节方式</item>
+        <item>副驾驶座椅调节方式</item>
+        <item>驾驶座腰部支撑调节</item>
+        <item>驾驶座肩部支撑调节</item>
+        <item>前座椅头枕调节</item>
+        <item>后排座椅调节方式</item>
+        <item>后排座位放倒比例</item>
+        <item>后排座椅角度调节</item>
+        <item>前座中央扶手</item>
+        <item>后座中央扶手</item>
+        <item>座椅通风</item>
+        <item>座椅加热</item>
+        <item>座椅按摩功能</item>
+        <item>电动座椅记忆</item>
+        <item>儿童安全座椅固定装置</item>
+        <item>第三排座椅</item>
+    </string-array>
+
+    <!-- 娱乐通讯 -->
+    <string-array name="entcom_key">
+        <item>定位互动服务</item>
+        <item>蓝牙系统</item>
+        <item>外接音源接口</item>
+        <item>内置硬盘</item>
+        <item>车载电视</item>
+        <item>扬声器数量</item>
+        <item>音响品牌</item>
+        <item>DVD</item>
+        <item>CD</item>
+        <item>中控台液晶屏</item>
+        <item>后排液晶屏</item>
+    </string-array>
+
+    <!-- 空调/冰箱 -->
+    <string-array name="air_key">
+        <item>空调控制方式</item>
+        <item>温度分区控制</item>
+        <item>后排独立空调</item>
+        <item>后排出风口</item>
+        <item>空气调节/花粉过滤</item>
+        <item>车内空气净化装置</item>
+        <item>车载冰箱</item>
+    </string-array>
+
+</resources>

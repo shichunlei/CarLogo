@@ -1,0 +1,4 @@
+bin/
+gen/
+.settings/
+src/com/chingtech/carlogo/utils/Constant.java
