@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/px_10"
+    android:background="@color/txt_color">
+
+    <LinearLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_type_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_80"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/px_20"
+            android:textColor="@color/white"
+            android:textSize="@dimen/px_34"
+            tools:text="一汽-大众奥迪" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

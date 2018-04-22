@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:orientation="vertical"
+    tools:context=".view.SettingActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_version"
+            android:layout_marginTop="@dimen/px_20"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/px_20"
+            android:paddingRight="@dimen/px_20"
+            style="@style/layout_style">
+
+            <ImageView
+                android:layout_width="@dimen/px_34"
+                android:layout_height="@dimen/px_34"
+                android:src="@drawable/icon_info" />
+
+            <TextView
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/px_20"
+                android:text="当前版本"
+                style="@style/text_key_style" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/px_20"
+                android:gravity="center_vertical"
+                android:textColor="@color/txt_color_9b"
+                tools:text="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

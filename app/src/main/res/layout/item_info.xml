@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".view.CarDetailsActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/px_20"
+        android:paddingRight="@dimen/px_20"
+        style="@style/layout_style">
+
+        <TextView
+            android:id="@+id/tv_key"
+            tools:text="车身颜色"
+            style="@style/text_key_style" />
+
+        <TextView
+            android:id="@+id/tv_value"
+            tools:text="车身颜色"
+            style="@style/text_value_style" />
+    </LinearLayout>
+
+    <View style="@style/divider_Style" />
+</LinearLayout>

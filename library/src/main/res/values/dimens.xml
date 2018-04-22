@@ -1,0 +1,68 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="title_text_size">18sp</dimen>
+
+    <dimen name="px_0">0px</dimen>
+    <dimen name="px_1">1px</dimen>
+    <dimen name="px_2">2px</dimen>
+    <dimen name="px_3">3px</dimen>
+    <dimen name="px_5">5px</dimen>
+    <dimen name="px_8">8px</dimen>
+    <dimen name="px_10">10px</dimen>
+    <dimen name="px_12">12px</dimen>
+    <dimen name="px_14">14px</dimen>
+    <dimen name="px_15">15px</dimen>
+    <dimen name="px_18">18px</dimen>
+    <dimen name="px_20">20px</dimen>
+    <dimen name="px_22">22px</dimen>
+    <dimen name="px_24">24px</dimen>
+    <dimen name="px_25">25px</dimen>
+    <dimen name="px_26">26px</dimen>
+    <dimen name="px_28">28px</dimen>
+    <dimen name="px_30">30px</dimen>
+    <dimen name="px_32">32px</dimen>
+    <dimen name="px_34">34px</dimen>
+    <dimen name="px_35">35px</dimen>
+    <dimen name="px_36">36px</dimen>
+    <dimen name="px_38">38px</dimen>
+    <dimen name="px_40">40px</dimen>
+    <dimen name="px_45">45px</dimen>
+    <dimen name="px_50">50px</dimen>
+    <dimen name="px_60">60px</dimen>
+    <dimen name="px_68">68px</dimen>
+    <dimen name="px_70">70px</dimen>
+    <dimen name="px_76">76px</dimen>
+    <dimen name="px_80">80px</dimen>
+    <dimen name="px_82">82px</dimen>
+    <dimen name="px_88">88px</dimen>
+    <dimen name="px_90">90px</dimen>
+    <dimen name="px_96">96px</dimen>
+    <dimen name="px_100">100px</dimen>
+    <dimen name="px_109">109px</dimen>
+    <dimen name="px_120">120px</dimen>
+    <dimen name="px_130">130px</dimen>
+    <dimen name="px_150">150px</dimen>
+    <dimen name="px_180">180px</dimen>
+    <dimen name="px_190">190px</dimen>
+    <dimen name="px_200">200px</dimen>
+    <dimen name="px_210">210px</dimen>
+    <dimen name="px_250">250px</dimen>
+    <dimen name="px_260">260px</dimen>
+    <dimen name="px_280">280px</dimen>
+    <dimen name="px_290">290px</dimen>
+    <dimen name="px_300">300px</dimen>
+    <dimen name="px_350">350px</dimen>
+    <dimen name="px_370">370px</dimen>
+    <dimen name="px_400">400px</dimen>
+    <dimen name="px_420">420px</dimen>
+    <dimen name="px_450">450px</dimen>
+    <dimen name="px_478">478px</dimen>
+    <dimen name="px_500">500px</dimen>
+    <dimen name="px_540">540px</dimen>
+    <dimen name="px_550">550px</dimen>
+
+    <dimen name="btn_height">88px</dimen>
+</resources>

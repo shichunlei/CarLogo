@@ -1,4 +1,11 @@
-bin/
-gen/
-.settings/
-src/com/chingtech/carlogo/utils/Constant.java
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+*.jks
+Constant.java
+app/release

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3a000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10px"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- 通过id设置的控件 -->
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--通过tag设置的控件 -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="textview"
+                    android:visibility="gone"
+                    tools:text="customText" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <!-- 【必设】升级标题控件tag：beta_title-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:tag="beta_title"
+                        android:textColor="@color/txt_color_deep"
+                        android:textSize="18sp"
+                        tools:text="title" />
+                </LinearLayout>
+
+                <View
+                    android:layout_height="3px"
+                    style="@style/divider_Style" />
+
+                <android.support.v4.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="100dp"
+                        android:orientation="vertical"
+                        android:paddingLeft="8px">
+
+                        <!-- 【必设】升级信息控件tag：beta_upgrade_info-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:tag="beta_upgrade_info"
+                            android:textColor="@color/txt_color_9b"
+                            android:textSize="14sp"
+                            android:visibility="gone"
+                            tools:text="info"
+                            tools:visibility="visible" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/strUpgradeDialogFeatureLabel"
+                            android:textColor="@color/txt_color"
+                            android:textSize="16sp" />
+
+                        <!-- 【必设】更新属性控件tag：beta_upgrade_feature-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10px"
+                            android:tag="beta_upgrade_feature"
+                            android:textColor="@color/txt_color"
+                            android:textSize="13sp"
+                            tools:text="feature" />
+                    </LinearLayout>
+                </android.support.v4.widget.NestedScrollView>
+
+                <View
+                    android:layout_height="3px"
+                    style="@style/divider_Style" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <!-- 【必设】取消按钮tag：beta_cancel_button-->
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_bg"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:tag="beta_cancel_button"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        tools:text="cancel" />
+
+                    <View
+                        android:layout_width="3px"
+                        style="@style/Vertical_Style" />
+
+                    <!-- 【必设】确认按钮tag：beta_confirm_button-->
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_bg"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:tag="beta_confirm_button"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:text="confirm" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
